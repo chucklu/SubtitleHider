@@ -29,7 +29,7 @@ namespace SubtitleHider
         {
             Hider hider = new Hider();
             hider.Topmost = true;
-            hider.WindowStyle = WindowStyle.None;
+            //hider.WindowStyle = WindowStyle.None;
             hider.Show();
         }
     }

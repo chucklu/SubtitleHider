@@ -17,7 +17,7 @@ namespace SubtitleHider
     /// <summary>
     /// Interaction logic for Hider.xaml
     /// </summary>
-    public partial class Hider : Window
+    public partial class Hider
     {
         public Hider()
         {
