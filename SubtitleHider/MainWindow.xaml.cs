@@ -32,8 +32,10 @@ namespace SubtitleHider
         {
             hider = new Hider();
             hider.Topmost = true;
-            //hider.WindowStyle = WindowStyle.None;
-            hider.Height = 50;
+            hider.WindowStyle = WindowStyle.ToolWindow;
+            hider.Height = 75;
+            hider.Width = 1125;
+            //hider.size
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
