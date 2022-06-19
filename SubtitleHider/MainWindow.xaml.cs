@@ -20,16 +20,24 @@ namespace SubtitleHider
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Hider hider;
+
         public MainWindow()
         {
             InitializeComponent();
+            InitHider();
+        }
+
+        private void InitHider()
+        {
+            hider = new Hider();
+            hider.Topmost = true;
+            //hider.WindowStyle = WindowStyle.None;
+            hider.Height = 50;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Hider hider = new Hider();
-            hider.Topmost = true;
-            //hider.WindowStyle = WindowStyle.None;
             hider.Show();
         }
     }
