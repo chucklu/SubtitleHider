@@ -7,7 +7,7 @@
                       xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
                       mc:Ignorable="d"
                       Title="Hider" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Opacity="50">
-    <Grid>
+    <Grid x:Name="myGrid">
         <Border BorderBrush="Yellow" BorderThickness="5"></Border>
     </Grid>
 </Window>

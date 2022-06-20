@@ -23,5 +23,11 @@ namespace SubtitleHider
         {
             InitializeComponent();
         }
+
+        public void SetOpacity(int opacityValue)
+        {
+            this.Opacity = opacityValue;
+            myGrid.Opacity = opacityValue;
+        }
     }
 }

@@ -48,7 +48,7 @@ namespace SubtitleHider
         {
             var numberString = OpacityValue.Text;
             int opacity = Convert.ToInt32(numberString);
-            hider.Opacity = opacity;
+            hider.SetOpacity(opacity);
             //hider.Background.Opacity = opacity;
         }
     }
