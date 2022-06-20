@@ -37,16 +37,26 @@ namespace SubtitleHider
             hider.Background = Brushes.Black;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonPopupHider_Click(object sender, RoutedEventArgs e)
         {
             hider.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void ButtonSetOpacity_Click(object sender, RoutedEventArgs e)
         {
-            var numberString = OpacityValue.Text;
+            var numberString = TextBoxOpacityValue.Text;
             var opacity = Convert.ToDouble(numberString);
             hider.SetOpacity(opacity);
+        }
+
+        private void ButtonHideHider_Click(object sender, RoutedEventArgs e)
+        {
+            hider.SetOpacity(0);
+        }
+
+        private void ButtonShowHider_Click(object sender, RoutedEventArgs e)
+        {
+            hider.SetOpacity(1);
         }
     }
 }
