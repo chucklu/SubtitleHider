@@ -27,7 +27,6 @@ namespace SubtitleHider
         public void SetOpacity(double opacityValue)
         {
             this.Opacity = opacityValue;
-            //myGrid.Opacity = opacityValue;
         }
     }
 }
