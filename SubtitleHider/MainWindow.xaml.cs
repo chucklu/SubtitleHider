@@ -33,7 +33,7 @@ namespace SubtitleHider
             hider = new Hider();
             hider.Topmost = true;
             //hider.WindowStyle = WindowStyle.ToolWindow;
-            //hider.Height = 75;
+            hider.Height = 75;
             hider.Width = 1125;
             hider.Background = Brushes.Black;
             //hider.size

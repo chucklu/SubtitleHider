@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SubtitleHider"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" Background="Transparent" WindowStyle="None">
+        Title="MainWindow" Height="450" Width="800" >
     <Grid>
         <Button Content="ShowHider" HorizontalAlignment="Left" Margin="200,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Transparent" HorizontalAlignment="Left" Margin="385,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
