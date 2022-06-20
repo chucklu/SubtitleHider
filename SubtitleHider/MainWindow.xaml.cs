@@ -32,9 +32,10 @@ namespace SubtitleHider
         {
             hider = new Hider();
             hider.Topmost = true;
-            hider.WindowStyle = WindowStyle.ToolWindow;
+            //hider.WindowStyle = WindowStyle.ToolWindow;
             hider.Height = 75;
             hider.Width = 1125;
+            hider.Background = Brushes.Black;
             //hider.size
         }
 
@@ -48,6 +49,7 @@ namespace SubtitleHider
             var numberString = OpacityValue.Text;
             int opacity = Convert.ToInt32(numberString);
             hider.Opacity = opacity;
+            //hider.Background.Opacity = opacity;
         }
     }
 }
