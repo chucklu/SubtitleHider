@@ -42,5 +42,12 @@ namespace SubtitleHider
         {
             hider.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var numberString = OpacityValue.Text;
+            int opacity = Convert.ToInt32(numberString);
+            hider.Opacity = opacity;
+        }
     }
 }
