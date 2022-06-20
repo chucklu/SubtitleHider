@@ -24,10 +24,10 @@ namespace SubtitleHider
             InitializeComponent();
         }
 
-        public void SetOpacity(int opacityValue)
+        public void SetOpacity(double opacityValue)
         {
             this.Opacity = opacityValue;
-            myGrid.Opacity = opacityValue;
+            //myGrid.Opacity = opacityValue;
         }
     }
 }

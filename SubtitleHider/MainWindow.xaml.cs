@@ -47,7 +47,7 @@ namespace SubtitleHider
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var numberString = OpacityValue.Text;
-            int opacity = Convert.ToInt32(numberString);
+            var opacity = Convert.ToDouble(numberString);
             hider.SetOpacity(opacity);
             //hider.Background.Opacity = opacity;
         }
